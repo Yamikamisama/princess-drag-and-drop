@@ -1,62 +1,6 @@
->## A Big Update Is Coming
+This is a companion for the Medium Article: I’m Sorry, Your Princess is NOT Supported in this Browser
 
->React Hot Loader 3 is [on the horizon](https://github.com/gaearon/react-hot-loader/pull/240), and you can try it today ([boilerplate branch](https://github.com/gaearon/react-hot-boilerplate/pull/61), [upgrade example](https://github.com/gaearon/redux-devtools/commit/64f58b7010a1b2a71ad16716eb37ac1031f93915)). It fixes some [long-standing issues](https://twitter.com/dan_abramov/status/722040946075045888) with both React Hot Loader and React Transform, and is intended as a replacement for both. The docs are not there yet, but they will be added before the final release. For now, [this commit](https://github.com/gaearon/redux-devtools/commit/64f58b7010a1b2a71ad16716eb37ac1031f93915) is a good reference.
+Whenever I am given something to do or want to venture into the unknown (at least to me), I try to game-ify it! The task at hand was learning how to use the React Drag and Drop Library [https://react-dnd.github.io/react-dnd/] and getting it to work in a sensible way. So… My new goal was to get some kind of object (The Princess) to the bottom of the page (The Level) by dragging it through a series of other objects (which would be for the time being would be combination of CoinBlocks and Goombas).
 
 
-React Hot Boilerplate
-=====================
-
-The minimal dev environment to enable live-editing React components.
-
-### ⚠️⚠️⚠️ This Is Experimental and Incomplete! ⚠️⚠️⚠️
-
-This is **not a good starting point for people learning React.**  
-It’s experimental and completely lacks any production features.
-
-**Do not use this as an actual project boilerplate!**  
-If you’re just getting started with React, **use [Create React App](https://github.com/facebookincubator/create-react-app) instead.**
-
-### Usage
-
-```
-git clone https://github.com/gaearon/react-hot-boilerplate.git
-cd react-hot-boilerplate/
-npm install
-npm start
-open http://localhost:3000
-```
-
-Now edit `src/App.js`.  
-Your changes will appear without reloading the browser like in [this video](http://vimeo.com/100010922).
-
-### Linting
-
-This boilerplate project includes React-friendly ESLint configuration.
-
-```
-npm run lint
-```
-
-### Using `0.0.0.0` as Host
-
-You may want to change the host in `server.js` and `webpack.config.js` from `localhost` to `0.0.0.0` to allow access from same WiFi network. This is not enabled by default because it is reported to cause problems on Windows. This may also be useful if you're using a VM.
-
-### Missing Features
-
-This boilerplate is purposefully simple to show the minimal configuration for React Hot Loader. For a real project, you'll want to add a separate config for production with hot reloading disabled and minification enabled. You'll also want to add a router, styles and maybe combine dev server with an existing server. This is out of scope of this boilerplate, but you may want to look into [other starter kits](https://github.com/gaearon/react-hot-loader/blob/master/docs/README.md#starter-kits).
-
-### Dependencies
-
-* React
-* Webpack
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
-* [babel-loader](https://github.com/babel/babel-loader)
-* [react-hot-loader](https://github.com/gaearon/react-hot-loader)
-
-### Resources
-
-* [Demo video](http://vimeo.com/100010922)
-* [react-hot-loader on Github](https://github.com/gaearon/react-hot-loader)
-* [Integrating JSX live reload into your workflow](http://gaearon.github.io/react-hot-loader/getstarted/)
-* [Troubleshooting guide](https://github.com/gaearon/react-hot-loader/blob/master/docs/Troubleshooting.md)
-* Ping [@dan_abramov](https://twitter.com/dan_abramov) on Twitter or #reactjs (`chat.freenode.net/reactjs`) on IRC
+I read through all of the docs for the React Drag and Drop Library so that I could familiarize myself with the different things that the library was capable of doing and for the most part everything seemed to be there. Win! I took one of the examples that creator had given in the docs to get up and running and tweaked it to meet my needs and create the game. Everything seemed to be working... Read more at this link: 
